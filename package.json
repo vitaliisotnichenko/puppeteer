@@ -1,0 +1,35 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "Automation testing with Puppeteer",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "prettier": "^2.0.5",
+    "puppeteer": "^3.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --timeout=20000 ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaliisotnichenko/puppeteer.git"
+  },
+  "keywords": [
+    "Puppeteer",
+    "Mocha",
+    "Chai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitaliisotnichenko/puppeteer/issues"
+  },
+  "homepage": "https://github.com/vitaliisotnichenko/puppeteer#readme"
+}
